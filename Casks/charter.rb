@@ -4,22 +4,22 @@ cask "charter" do
 
   on_macos do
     on_intel do
-      sha256 "14d82845741ada5f2806b8ce18c287e3bdbb28026fec9e8811d0a757ad88d63b"
+      sha256 "14822cef5f796361ed72b649788f7f6fa0acdf1ec66dac9af0b145b81f5160b1"
       url "https://github.com/helloodokai/charter/releases/download/v#{version}/charter_darwin_amd64.tar.gz"
     end
     on_arm do
-      sha256 "c93b4829c5b554adeb630fcdbdafbad65282f3ff9623aac456deaca0232b00b9"
+      sha256 "39a433e56d5a48b8b3b8297042204b51b2e5c608a63eb04a8be179c8b475dff6"
       url "https://github.com/helloodokai/charter/releases/download/v#{version}/charter_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "193324b6af3820cb652890bcd76dcbddb1be1aa5498c12bd9ec4185c9eb6e49d"
+      sha256 "753dcd8c8788162532e3e8ee353c8b982ef80f80fe452742ccb52561240d9944"
       url "https://github.com/helloodokai/charter/releases/download/v#{version}/charter_linux_amd64.tar.gz"
     end
     on_arm do
-      sha256 "a586bf5c3a438febd7ec19077d0800f5ab714a3beb36d0e23d54d27248fffee4"
+      sha256 "5baee94eafa40d0533a3df62308194d84c705c0c6813f7598138c61f9bc956de"
       url "https://github.com/helloodokai/charter/releases/download/v#{version}/charter_linux_arm64.tar.gz"
     end
   end
